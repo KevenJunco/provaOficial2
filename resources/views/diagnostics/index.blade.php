@@ -5,7 +5,8 @@
     <div class="row justify-content-center">
         <div class="col-md-12">
             <div class="card">               
-                <h4 class="col-md-6">{{$titlePage}}</h4>                    
+                <h4 class="col-md-6">{{$titlePage}}</h4>                  
+
                 <div class="card-body">
                     @if (session('status'))
                         <div class="alert alert-success" role="alert">
